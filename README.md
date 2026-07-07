@@ -15,8 +15,8 @@
 
 | No. Práctica | Nombre | Firmas | Estatus |
 |---|---|---|---|
-| 01 | [Análisis Exploratorio de Datos (EDA) con Python y Jupyter](/Practica_03.ipynb)| 50 | Activa |
-| 02 |  |  |  |
+| 01 | [Análisis Exploratorio de Datos (EDA) con Python y Jupyter](/Practica_03/Practica_03.ipynb)| 50 | Finalizada |
+| 02 | []() | ? | Activa |
 | 03 |  |  |  |
 | 04 |  |  |  |
 | 05 |  |  |  |
