@@ -199,5 +199,5 @@ def generar_dataset_expedientes(total_registros=5500):
 
 # Generar 5,500 registros limpios
 df_expedientes = generar_dataset_expedientes(5500)
-df_expedientes.to_csv("expedientes_clinicos_puebla_text.csv", index=False, encoding="utf-8-sig")
+df_expedientes.to_csv("expedientes_clinicos_puebla_1.csv", index=False, encoding="utf-8-sig")
 print("¡Proceso finalizado con éxito!")
