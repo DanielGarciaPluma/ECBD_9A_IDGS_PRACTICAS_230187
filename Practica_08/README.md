@@ -331,6 +331,7 @@ La visualización incluye:
 -   Tooltip.
 -   Cámara 3D interactiva.
 <img src="/Practica_08/image/image14.png" width="700">
+<img src="/Practica_08/image/image20.png" width="700">
 
 ------------------------------------------------------------------------
 
@@ -399,6 +400,16 @@ El notebook también comprueba:
 -   El archivo CSV utilizado como fuente.
 <img src="/Practica_08/image/image17.png" width="700">
 
+
+------------------------------------------------------------------------
+
+## Imagenes de los sprites
+<img src="/Practica_08/sprites/722.png" width="150">
+<img src="/Practica_08/sprites/723.png" width="150">
+<img src="/Practica_08/sprites/724.png" width="150">
+<img src="/Practica_08/sprites/725.png" width="150">
+<img src="/Practica_08/sprites/726.png" width="150">
+
 ------------------------------------------------------------------------
 
 ## 18. Conclusiones
@@ -425,116 +436,3 @@ rotación, zoom, tooltips y reinicio de cámara, haciendo posible explorar
 visualmente las relaciones entre generación, tipo y estadísticas.
 
 ------------------------------------------------------------------------
-
-## Cómo ejecutar la práctica
-
-### 1. Preparar la carpeta
-
-Todos los archivos deben mantenerse en la estructura indicada:
-
-``` text
-Practica08/
-├── Practica08(1).ipynb
-├── PokemonSprites.csv
-└── sprites/
-    ├── 722.png
-    ├── 723.png
-    ├── 724.png
-    ├── 725.png
-    └── 726.png
-```
-
-### 2. Abrir el notebook
-
-Abrir:
-
-``` text
-Practica08(1).ipynb
-```
-
-en Jupyter Notebook, JupyterLab o un entorno compatible con archivos
-`.ipynb`.
-
-### 3. Ejecutar las celdas
-
-Ejecutar las celdas en orden, desde la primera hasta la última.
-
-### 4. Verificar los sprites
-
-La sección de validación debe mostrar los sprites externos y los sprites
-locales de los Pokémon inventados.
-
-### 5. Verificar la visualización
-
-Al ejecutar la sección de integración de sprites se debe mostrar el
-Scatter Plot 3D interactivo.
-
-### 6. Verificar la exportación
-
-Al finalizar debe generarse:
-
-``` text
-pokemon_sprites_3d.html
-```
-
-------------------------------------------------------------------------
-
-## Dependencias
-
-La práctica utiliza:
-
--   Python
--   pandas
--   numpy
--   plotly
--   nbformat
--   IPython
--   pathlib
--   re
-
-La visualización 3D con sprites utiliza además recursos JavaScript de
-**Three.js** cargados desde CDN dentro del HTML generado.
-
-------------------------------------------------------------------------
-
-## Notas importantes
-
--   El análisis utiliza un único CSV como fuente de datos.
--   No se necesita `Pokemon.csv`.
--   No se genera un segundo CSV de sprites.
--   Las URLs de sprites reales se toman directamente del CSV.
--   Los Pokémon de tipo `Artificial` utilizan sprites locales.
--   La carpeta `sprites` debe permanecer junto al notebook.
--   Los archivos `722.png` a `726.png` corresponden a los Pokémon
-    inventados.
--   El HTML generado es `pokemon_sprites_3d.html`.
--   La visualización 3D depende de JavaScript y de la carga de Three.js
-    desde CDN.
--   Si el HTML se abre en un entorno sin acceso a la CDN, la escena
-    puede no cargar correctamente.
-
-------------------------------------------------------------------------
-
-## Tecnologías utilizadas
-
-``` text
-Python
-Pandas
-NumPy
-Plotly
-Jupyter Notebook
-IPython
-Three.js
-HTML
-CSS
-JavaScript
-```
-
-------------------------------------------------------------------------
-
-## Autor
-
-**Carlos Daniel Garcia Pluma**\
-**Matrícula:** 230187\
-**9° A IDGS**\
-**Universidad Tecnológica de Xicotepec de Juárez**
